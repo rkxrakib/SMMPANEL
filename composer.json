@@ -1,0 +1,22 @@
+{
+    "require": {
+        "twig/twig": "^2.0",
+        "phpmailer/phpmailer": "^6.7",
+        "xfoxawy/2checkout": "dev-master",
+        "mollie/mollie-api-php": "^2.0",
+        "stripe/stripe-php": "*",
+        "pragmarx/google2fa": "^8.0",
+        "bacon/bacon-qr-code": "^2.0",
+        "google/apiclient": "^2.0"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Oauth2"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        }
+    }
+}
